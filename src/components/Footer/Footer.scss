@@ -1,0 +1,166 @@
+.footer {
+    background: #111827;
+    padding-bottom: 40px;
+
+    &_content {
+        padding: 64px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &_columns {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap: 32px;
+
+            &_column {
+                flex: 1;
+                min-width: 300px;
+
+                // Logo
+                .footer_logo {
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 30px;
+                }
+
+                // Social icons
+                .footer_icons {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    padding-top: 20px;
+
+                    a {
+                        width: 16px;
+                        height: 16px;
+                        color: #9CA3AF;
+                    }
+                }
+
+                // Paragraph text
+                p {
+                    color: rgb(156, 163, 175);
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    padding: 18px 0 26px 0;
+                }
+
+                // Column heading
+                h4 {
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    text-align: left;
+                }
+
+                // List styling
+                ul {
+                    list-style: none;
+                    padding: 0;
+
+                    li {
+                        color: #9CA3AF;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        text-transform: uppercase;
+                        padding: 16px 0;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #00d084;
+                        }
+
+                        a {
+                            color: inherit;
+                        }
+                    }
+                }
+            }
+
+            &_cta {
+                flex: 1;
+                min-width: 250px;
+                text-align: right;
+
+                h3 {
+                    background: linear-gradient(0deg, #808080, #ffffff);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 24.96px;
+                    letter-spacing: -0.72px;
+                    text-align: left;
+                }
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    margin-top: 8px;
+                    padding: 9.6px;
+                    border-radius: 6.4px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    border: none;
+                    cursor: pointer;
+
+                    &.green {
+                        background: #00d084;
+                        color: black;
+                    }
+
+                    &.dark {
+                        background: #2b2b2b;
+                        color: white;
+                    }
+
+                    &:hover {
+                        opacity: 0.9;
+                    }
+                }
+            }
+        }
+    }
+
+    // Footer bottom strip
+    .footer_bottom {
+        box-sizing: border-box;
+        border-top: 1px solid rgb(31, 41, 55);
+        display: flex;
+        justify-content: space-between;
+        color: rgb(156, 163, 175);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-top: 33px;
+
+
+        .footer_btn_info {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+
+        }
+
+        .footer_btn_info a {
+            color: rgb(156, 163, 175);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: right;
+        }
+    }
+}

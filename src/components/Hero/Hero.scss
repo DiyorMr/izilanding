@@ -1,0 +1,252 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+
+    .hero_info {
+
+        h1 {
+            color: rgb(51, 51, 51);
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        p {
+            color: rgb(75, 85, 99);
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        .hero_btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 60px;
+
+            .free_btn {
+                width: 199px;
+                height: 48px;
+                border-radius: 30px;
+                box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.18);
+                background: rgb(23, 181, 116);
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: center;
+                padding: 12px;
+            }
+
+            .hero_btn_icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                width: 189px;
+                height: 48px;
+                box-sizing: border-box;
+                border: 2px solid rgb(23, 181, 116);
+                border-radius: 30px;
+                background: rgb(255, 255, 255);
+
+                .circle {
+                    width: 16px;
+                    height: 16px;
+                    color: #17B574;
+                }
+
+                .demo_btn {
+                    color: rgb(23, 181, 116);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                }
+            }
+
+        }
+
+    }
+
+    .hero_chat {
+        position: relative;
+
+        .hero_rate {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 275.05px;
+            height: 56px;
+            border-radius: 8px;
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+            background: rgba(23, 181, 116, 0.35);
+            color: rgb(51, 51, 51);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+            right: -120px;
+            bottom: -12px;
+
+            .rate_icon {
+                width: 16px;
+                height: 16px;
+                color: #17B574;
+            }
+        }
+    }
+}
+
+.hero_status {
+    margin: 85px auto;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        width: 1232px;
+        height: 88px;
+        border-radius: 12px;
+        background: rgb(249, 250, 251);
+        color: rgb(107, 114, 128);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+}
+
+.turn {
+    background: #F9FAFB;
+    margin: 120px 0 162px 0;
+
+    .turn_title {
+        color: rgb(51, 51, 51);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .turn_text {
+        color: rgb(75, 85, 99);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .turn_box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 62px;
+        padding-bottom: 80px;
+
+        .turn_problem {
+            height: 204px;
+            box-sizing: border-box;
+            border: 0.5px solid rgb(23, 181, 116);
+            border-radius: 12px;
+            background: rgb(239, 246, 255);
+            padding: 24px;
+
+            h1 {
+                color: rgb(220, 38, 38);
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 28px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            .turn_boxs {
+
+                .turn_box_card {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    padding: 8px 0;
+
+                    .turn_box_card_icon {
+                        width: 16px;
+                        height: 16px;
+                        background: #EF4444;
+                        color: white;
+                        border-radius: 50%;
+                    }
+
+                    p {
+                        color: rgb(51, 51, 51);
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+
+        .turn_solution {
+            height: 240px;
+            box-sizing: border-box;
+            border: 0.5px solid rgb(23, 181, 116);
+            border-radius: 12px;
+            box-shadow: 0px 2px 10px 0px rgba(12, 12, 13, 0.5);
+            background: rgb(236, 253, 245);
+            padding: 24px;
+
+
+            h1 {
+                color: rgb(5, 150, 105);
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 28px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            .turn_box_card {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 8px 0;
+
+
+                .check_icon {
+                    width: 16px;
+                    height: 16px;
+                    background: #10B981;
+                    color: white;
+                    border-radius: 50%;
+                }
+
+                p {
+                    color: rgb(51, 51, 51);
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+            }
+        }
+
+    }
+}

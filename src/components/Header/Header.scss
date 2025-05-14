@@ -1,0 +1,122 @@
+.header {
+    max-width: 1250px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: auto;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    box-shadow: inset 0px 0px 12px 0px rgba(255, 255, 255, 0.1);
+    position: sticky;
+    top: 20px;
+    z-index: 999;
+    padding: 6px;
+
+    &_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_logo {
+            display: block;
+
+            .logo {
+                width: 50px;
+                height: 50px;
+                border-radius: 4px;
+
+                &:hover {
+                    opacity: 0.9;
+
+                }
+            }
+        }
+
+        &_list {
+            display: flex;
+            align-items: center;
+            gap: 38px;
+
+            &:hover {
+                opacity: 0.9;
+            }
+
+        }
+
+        &_actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &_lang {
+                width: 25px;
+                height: 25px;
+                color: rgb(23, 181, 116);
+                cursor: pointer;
+            }
+
+            a {
+                width: 80px;
+                height: 40px;
+                box-sizing: border-box;
+                border-radius: 8px;
+                background: #FFFFFF;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14.4px;
+                letter-spacing: 0%;
+                text-align: center;
+                text-transform: uppercase;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+
+                &.login {
+                    width: 120px;
+                    height: 48px;
+                    box-sizing: border-box;
+                    border: 1px solid rgb(23, 181, 116);
+                    border-radius: 15px;
+                    background: rgb(255, 255, 255);
+                    color: rgb(23, 181, 116);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: center;
+
+                }
+
+                &.get-started {
+                    width: 152px;
+                    height: 48px;
+                    border-radius: 15px;
+                    box-shadow: 0px 4px 6px 0px rgba(112, 178, 119, 0.2);
+                    background: rgb(23, 181, 116);
+                    color: rgb(255, 255, 255);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                }
+
+                &:hover {
+                    opacity: 0.85;
+                }
+            }
+        }
+    }
+}
+
+.line {
+    width: 100%;
+    height: 32px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(23, 181, 116, 0.9);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
