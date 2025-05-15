@@ -1,5 +1,6 @@
 import { casesCardData } from '@/constants'
 import './Cases.scss'
+import PartnerSlider from '../PartnerSlider'
 const Cases = () => {
     return (
         <>
@@ -29,18 +30,8 @@ const Cases = () => {
                 <h1>What Our Early Users Say</h1>
                 <p>Join these forward-thinking businesses already using IZIISH.</p>
 
-                <div className="testimonial_card">
-                    <div className="testimonial_video">
-                        <video className="video_content" poster="/images/girls.svg" controls>
-                            <source src="/video/izi-video.mkv" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <p className="testimonial_text">
-                        With IZI Ish I optimized my Sales and got it almost 3X
-                    </p>
-                </div>
-
+                
+                <PartnerSlider />
 
 
             </div>

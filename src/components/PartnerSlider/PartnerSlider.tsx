@@ -1,17 +1,16 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-// import "swiper/css";
+import "swiper/swiper-bundle.css";
 import "./PartnerSlider.scss";
 
 // import required modules
 import { Autoplay } from "swiper/modules";
-import SlideItem from "../SliderItem";
 
 const PartnerSlider = () => {
   return (
     <Swiper
-      slidesPerView={5}
+      slidesPerView={3.5}
       loop={true}
       speed={5000}
       autoplay={{
@@ -23,28 +22,56 @@ const PartnerSlider = () => {
       className="mySwiper"
     >
       <SwiperSlide>
-        <SlideItem image="/images/slider1.jpg" title="We Digital" />
+        <div className="testimonial_card">
+          <div className="testimonial_video">
+            <video className="video_content" poster="/images/girls.svg" controls>
+              <source src="/video/izi-video.mkv" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="testimonial_text">
+            With IZI Ish I optimized my Sales and got it almost 3X
+          </p>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <SlideItem image="/images/slider2.jpg" title="Alpha" />
+        <div className="testimonial_card">
+          <div className="testimonial_video">
+            <video className="video_content" poster="/images/girls.svg" controls>
+              <source src="/video/izi-video.mkv" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="testimonial_text">
+            With IZI Ish I optimized my Sales and got it almost 3X
+          </p>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <SlideItem image="/images/slider3.jpg" title="Osnova" />
+        <div className="testimonial_card">
+          <div className="testimonial_video">
+            <video className="video_content" poster="/images/girls.svg" controls>
+              <source src="/video/izi-video.mkv" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="testimonial_text">
+            With IZI Ish I optimized my Sales and got it almost 3X
+          </p>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <SlideItem image="/images/slider4.jpg" title="AimLab" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <SlideItem image="/images/slider1.jpg" title="We Digital" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <SlideItem image="/images/slider2.jpg" title="Alpha" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <SlideItem image="/images/slider3.jpg" title="Osnova" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <SlideItem image="/images/slider4.jpg" title="AimLab" />
+        <div className="testimonial_card">
+          <div className="testimonial_video">
+            <video className="video_content" poster="/images/girls.svg" controls>
+              <source src="/video/izi-video.mkv" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="testimonial_text">
+            With IZI Ish I optimized my Sales and got it almost 3X
+          </p>
+        </div>
       </SwiperSlide>
     </Swiper>
   );
