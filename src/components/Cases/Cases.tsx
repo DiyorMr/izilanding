@@ -1,4 +1,4 @@
-import { casesCardData } from '@/constants'
+import { casesCardData } from '../../constants'
 import './Cases.scss'
 import PartnerSlider from '../PartnerSlider'
 const Cases = () => {

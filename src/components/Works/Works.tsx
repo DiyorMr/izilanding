@@ -1,4 +1,4 @@
-import { worksCardData } from '@/constants'
+import { worksCardData } from '../../constants'
 import './Works.scss'
 const Works = () => {
     return (

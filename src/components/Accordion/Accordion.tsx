@@ -1,4 +1,4 @@
-import { accordionData } from "@/constants";
+import { accordionData } from "../../constants";
 import "./Accordion.scss";
 
 const Accordion = () => {

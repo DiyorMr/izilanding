@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './Pricing.scss'
-import { planCardData } from "@/constants";
+import { planCardData } from "../../constants";
 import { Check } from "lucide-react";
 
 
