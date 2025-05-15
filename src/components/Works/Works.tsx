@@ -2,7 +2,7 @@ import { worksCardData } from '../../constants'
 import './Works.scss'
 const Works = () => {
     return (
-        <div className="izi_wrapper">
+        <div className="izi_wrapper" id='works'>
             <div className='container'>
                 <h2 className="izi_title">How IZI Ish Works</h2>
                 <p className="izi-subtitle">Get up and running in minutes, not months.</p>

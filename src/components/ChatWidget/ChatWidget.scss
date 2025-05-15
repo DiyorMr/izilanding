@@ -1,0 +1,137 @@
+.chat_widget {
+    width: 448px;
+    height: 386px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0;
+    box-sizing: border-box;
+    border: 0.5px solid rgb(23, 181, 116);
+    border-radius: 16px;
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.chat_header {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chat_header .chat_bot_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    background: rgb(209, 250, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon_bot {
+        width: 24px;
+        height: 24px;
+        color: #059669;
+    }
+
+}
+
+.chat_info {
+    display: flex;
+    display: grid;
+    gap: 2px;
+
+
+    .chat_info_title {
+        color: rgb(31, 41, 55);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    p {
+        color: rgb(107, 114, 128);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.chat_body {
+    padding: 12px;
+    flex: 1;
+    overflow-y: auto;
+    background: #fff;
+}
+
+.message {
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.message.bot {
+    background: rgb(236, 253, 245);
+    align-self: flex-start;
+}
+
+.message.user {
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: right;
+    align-self: flex-end;
+    margin-left: auto;
+    border-radius: 8px;
+    background: rgb(209, 250, 229);
+}
+
+.chat_input {
+    margin: 16px;
+    padding: 12px;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: 9999px;
+    background: rgb(255, 255, 255);
+}
+
+.chat_input input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+.chat_input button {
+    background: #17B574;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .navigation_icon {
+        width: 16px;
+        height: 16px;
+    }
+}

@@ -4,7 +4,7 @@ import './Features.scss'
 const Features = () => {
     return (
         <div className='container'>
-            <div className="features">
+            <div className="features" id='features'>
                 <h1>Powerful Features for Modern Businesses</h1>
                 <p>Everything you need to create exceptional
                     customer experiences at scale.

@@ -9,7 +9,7 @@ const PricingSection = () => {
     const [activeIndex, setActiveIndex] = useState(1);
 
     return (
-        <div className="container">
+        <div className="container" id="pricing">
             <div className="pricing_section">
                 <h2 className="pricing_title">Simple, Transparent Pricing</h2>
                 <p className="pricing_subtitle">

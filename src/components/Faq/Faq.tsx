@@ -2,7 +2,7 @@ import Accordion from '../Accordion'
 import './Faq.scss'
 const Faq = () => {
     return (
-        <div className='faq'>
+        <div className='faq' id='faq'>
             <div className="container">
                 <div className='faq_info'>
                     <h1>Frequently Asked Questions</h1>

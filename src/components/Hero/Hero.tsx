@@ -1,5 +1,6 @@
 import { ChartNoAxesCombined, Check, CirclePlay, X } from 'lucide-react'
 import './Hero.scss'
+import ChatWidget from '../ChatWidget'
 const Hero = () => {
     return (
         <>
@@ -21,7 +22,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='hero_chat'>
-                        <img src="./images/backbg.svg" alt="" />
+                        <ChatWidget />
                         <div className='hero_rate'>
                             <ChartNoAxesCombined className='rate_icon' />
                             <p>98% customer satisfaction rate</p>

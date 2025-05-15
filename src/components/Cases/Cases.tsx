@@ -3,7 +3,7 @@ import './Cases.scss'
 import PartnerSlider from '../PartnerSlider'
 const Cases = () => {
     return (
-        <>
+        <div className='cases' id='support'>
             <div className='container'>
                 <div className="use_case_wrapper">
                     <h2 className="use_case_title">Versatile Use Cases</h2>
@@ -30,12 +30,13 @@ const Cases = () => {
                 <h1>What Our Early Users Say</h1>
                 <p>Join these forward-thinking businesses already using IZIISH.</p>
 
-                
+
                 <PartnerSlider />
 
 
             </div>
-        </>
+        </div>
+
     )
 }
 

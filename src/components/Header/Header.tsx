@@ -14,16 +14,16 @@ const Header = () => {
                                 <a href="#features">Features</a>
                             </li>
                             <li className="header_container_list_item_link">
-                                <a href="#pricing">How it works</a>
+                                <a href="#works">How it works</a>
                             </li>
                             <li className="header_container_list_item_link">
                                 <a href="#support">Use Cases</a>
                             </li>
                             <li className="header_container_list_item_link">
-                                <a href="#support">Pricing</a>
+                                <a href="#pricing">Pricing</a>
                             </li>
                             <li className="header_container_list_item_link">
-                                <a href="#support">Faq</a>
+                                <a href="#faq">Faq</a>
                             </li>
                         </ul>
                     </nav>
